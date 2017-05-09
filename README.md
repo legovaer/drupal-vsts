@@ -1,2 +1,9 @@
-# drupal-vsts
-Deploying Drupal 8 using VSTS
+# Drupal deployment using VSTS
+
+## Installing this project
+
+Just execute
+
+```bash
+composer install
+```
