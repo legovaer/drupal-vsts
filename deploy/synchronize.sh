@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync -a --progress ../ $DRUPAL_SYNC_USER@$DRUPAL_SYNC_HOST:$DRUPAL_SYNC_DESTINATION

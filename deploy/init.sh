@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# Set default Drupal settings
+DRUPAL_SI_LANGCODE=${DRUPAL_SI_LANGCODE:=en}
+DRUPAL_SI_DB_TYPE=${DRUPAL_SI_DB_TYPE:=mysql}
+DRUPAL_DB_HOST=${DRUPAL_DB_HOST:=localhost}
+DRUPAL_DB_NAME=${DRUPAL_DB_NAME:=drupal}
+DRUPAL_DB_USER=${DRUPAL_DB_USER:=drupal}
+DRUPAL_DB_PASSWORD=${DRUPAL_DB_PASS:=drupal}
+DRUPAL_DB_PORT=${DRUPAL_DB_PORT:=3306}
+DRUPAL_SI_SITE_NAME=${DRUPAL_SI_SITE_NAME:=Drupal VSTS Demo}
+DRUPAL_SI_SITE_MAIL=${DRUPAL_SI_SITE_NAME:=vstsdemo@random.com}
+DRUPAL_SI_ACCOUNT_NAME=${DRUPAL_SI_ACCOUNT_NAME:=admin}
+DRUPAL_SI_ACCOUNT_MAIL=${DRUPAL_SI_ACCOUNT_MAIL:=vstsdemo@random.com}
+DRUPAL_SI_ACCOUNT_PASS=${DRUPAL_SI_ACCOUNT_PASS:=admin}
+DRUPAL_DB_FILE=${DRUPAL_DB_FILE:=database.sql}
+
+# Set drupal executable
+drupal=./vendor/bin/drupal
+drush=./vendor/bin/drush
+
+set -a
